@@ -1,0 +1,71 @@
+<div class="container view2">
+	<div class="row">
+		<div class="span5 offset2  addSamples">
+			<h2> Add Samples </h2>
+			<br />
+		<!--{{ samples.length }}-->
+			<form name="myForm">
+			Sample Number: <br />
+			<input type="text" ng-model="newSample.number" name="number" id="number" />
+			<br />
+			Sample Box: <br />
+			<input type="text" ng-model="newSample.box" name="box" id="box" />
+			<br />
+			Sample Row: <br />
+			<input type="text" ng-model="newSample.row" name="row" id="row" />
+			<br />
+			Sample Level: <br />
+			<input type="text" ng-model="newSample.level" name="level" id="level" />
+			<br />
+			<button class="clouds-flat-button" id="button">Add New Sample</button>
+			</form>
+		</div>
+		<div class="span5 export">
+			<h2>Export</h2>
+			<br />
+			<div class="row">
+				<div class="span12">
+					<a href="php/exportExcel.php">Export as Excel</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span12 lower">
+					<a href="php/exportCSV.php">Export as CSV</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span12 lower sampleList">
+					<a href="#/view1">
+						Back to Sample List
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#button").click(function() {
+				var number = $('#number').val();
+				var box = $('#box').val();
+				var row = $('#row').val();
+				var level = $('#level').val();
+				//
+				$.ajax({
+					type:"POST",
+					url:"php/process.php",
+					data:"number="+ number +"&box="+ box +"&row="+row+"&level="+level,
+					success: function(data) {
+						$("#info").html(data);
+					}
+				});
+				//
+				function erase() {
+					var blank = ' ';
+					$("form").children("input").val(blank);
+				};
+				erase();
+			});
+		});
+	</script>
+	<div id="info"></div>
+</div>

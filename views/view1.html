@@ -1,0 +1,86 @@
+<div class="container view1">
+	<div class="row searchBoxContainer">
+		<div class="span10">
+			<span class="searchBoxTitle">Search:</span>
+			<input type="text" class="searchBox" ng-model="filter.number" />
+		</div>
+		<a href="#/view2">
+			<div class="span2 addSamples">
+				<div class="pushDown">
+					Add Samples
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="row columnHeadings">
+		<div class="span3 columnHeadings push-right">
+			<h3>Number:</h3>
+		</div>
+		<div class="span3 columnHeadings">
+			<h3>Box:</h3>
+		</div>
+		<div class="span3 columnHeadings">
+			<h3>Row:</h3>
+		</div>
+		<div class="span3 columnHeadings">
+			<h3>Level:</h3>
+		</div>
+	</div>
+	<div class="row desktop-only">
+		<div class="span12" ng-repeat="sample in samples.data | filter:filter.number | orderBy: 'number'">
+			<div class="row">
+				<div class="span3 push-right">
+					<p>{{ sample.number }}</p>
+				</div>
+				<div class="span3">
+					<p>{{ sample.box }}</p>
+				</div>
+				<div class="span3">
+					<p>{{ sample.row }}</p>
+				</div>
+				<div class="span3">
+					<p>{{ sample.level }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--<div class="row">
+		<div class="span12">
+			<a href="#/view2">Add Samples</a>
+		</div>
+	</div>-->
+		
+	<script type="text/javascript">
+//	 $(".searchBox").focus(function() {
+//		$(".searchBoxTitle").addClass("whiten");
+//		$(".columnHeadings h3").addClass("whiten");
+		//$(".span3 p").addClass("whiten");
+//		$("html").addClass("darkenTheSky");
+//		$("body").addClass("darkenTheSky");
+		//$(".columnHeadings").addClass("darkenTheSky");
+//	});
+//		$(".searchBox").blur(function() {
+//			$(".searchBoxTitle").removeClass("whiten");
+//			$(".columnHeadings h3").removeClass("whiten");
+		//	$(".span3 p").removeClass("whiten");
+//			$("html").removeClass("darkenTheSky");
+//			$("body").removeClass("darkenTheSky");
+			//$(".columnHeadings").removeClass("darkenTheSky");
+//		});
+		
+	<!-- Prevent Grid Collapse -->
+//		function condenseNav() {
+//			if ($(window).width() > 480 && $(window).width() < 768) {
+//				$(".desktop-only").addClass("condense");
+//			}
+//		};
+//			condenseNav();
+//			   $(window).resize(function () {
+//			       if ($(window).width() > 480 && $(window).width() < 768) {
+//			           $(".desktop-only").addClass("condense");
+//			       } else {
+//			           $(".desktop-only").removeClass("condense")
+//			       }
+//			   });
+	</script>
+</div>

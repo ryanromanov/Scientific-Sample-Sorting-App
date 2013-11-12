@@ -1,0 +1,95 @@
+
+html {
+	background-color: rgba(255, 255, 255, 1);
+	transition: background-color .5s;
+}
+body {
+	background-color: rgba(255, 255, 255, 1);
+}
+a:link {
+	text-decoration: none;
+	color: rgba(102, 102, 102, 1);
+}
+	a:visited {
+		text-decoration: none;
+		color: rgba(102, 102, 102, 1);
+	}
+		a:hover {
+			text-decoration: none;
+			color: rgba(102, 102, 102, 1);
+		}
+			a:active {
+				text-decoration: none;
+				color: rgba(102, 102, 102, 1);
+			}
+.span2.addSamples {
+	text-align: center;
+	height: 40px;
+	font-family: "Open Sans";
+	font-weight: 100;
+}
+	.span2.addSamples:hover {
+		background-color: rgba(152, 152, 152, 1);
+	}
+	a .span2.addSamples:hover {
+		color: rgba(255, 255, 255, 1);
+	}
+.span2.addSamples div.pushDown {
+	margin-top: .6em;
+}
+	.row {
+		margin-top: .5%;	
+	}
+		.row.searchBoxContainer {
+			margin-top: 2%;
+		}
+	.columnHeadings {
+		background-color: rgba(0, 0, 0, 0);
+		margin-top: .5%;
+	}
+		.span3.columnHeadings {
+			background-color: rgba(0, 0, 0, 0);
+			font-family: "Open Sans";
+		}
+			.span3.columnHeadings h3 {
+				font-weight: 100;
+				margin-top: -1%;
+			}
+	.span3 {
+		background-color: rgba(255, 255, 255, 1);
+		color: rgba(102, 102, 102, 1);
+		text-align: center;
+		font-family: "Open Sans";
+		font-size: 1.1em;
+		font-weight: 100;
+		width: 15%;
+		height: 40px;
+	}
+		.span3.push-right {
+			margin-left: 17%;
+		}
+		.span3 p {
+			background-color: rgba(0, 0, 0, 0);
+			margin-top: 7%;
+			color: rgba(102, 102, 102, 1);
+		}
+	.searchBoxTitle {
+		font-family: "Open Sans";
+		font-size: 1.5em;
+		font-weight: 300;
+		color: rgba(0, 128, 255, 1);
+/*		color: rgba(52, 152, 219, 1);*/
+	}
+		.whiten {
+			color: rgba(255, 255, 255, 1) !important;
+		}
+		.whitener {
+			color: rgba(255, 255, 255, 1) !important;
+		}
+.view2 div.span5.addSamples a {
+	padding: 2.1%;
+}
+	.view2 div.span5.addSamples a:hover {
+		background-color: rgba(152, 152, 152, 1);
+		color: rgba(255, 255, 255, 1);
+	}

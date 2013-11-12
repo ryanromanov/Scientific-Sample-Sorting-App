@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+		<div class="span12">
+		<span class="searchBox">Search:</span>
+		<input type="text" ng-model="filter.number" />
+		</div>
+	<div class="row">
+		<div class="span12" ng-repeat="sample in samples.data | filter:filter.number | orderBy: 'filter.box'">
+			<div class="row">
+				<div class="span3">
+				<p>Number:		{{ sample.number }}</p>
+				</div>
+				<div class="span3">
+				<p>Box: 		{{ sample.box }}</p>
+				</div>
+				<div class="span3">
+				<p>Row:		{{ sample.row }}</p>
+				</div>
+				<div class="span3">
+				<p>Level: 		{{ sample.level }}</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	</div>
+		<div class="row">
+			<div class="span12">
+				<a href="#/view2">Add Samples</a>
+			</div>
+		</div>
+</div>

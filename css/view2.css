@@ -1,0 +1,46 @@
+
+.view2 .span5.push-right {
+	margin-left: 17%;
+}
+.view2 div {
+	font-family: "Open Sans";
+	font-weight: 100;
+	color: rgba(102, 102, 102, 1);
+}
+.view2 .span5 h2,
+.view2 .span3 h2 {
+	font-family: "Open Sans";
+	font-weight: 100;
+	color: rgba(102, 102, 102, 1);
+}
+.view2 button {
+	font-family: "Open Sans";
+	font-weight: 100;
+	color: rgba(102, 102, 102, 1);
+}
+.span5.export .span12.lower {
+	margin-top: 5%;
+}
+.view2 div.span12 a {
+	padding: 1%;
+}
+	.view2 .row div.span12 a:hover {
+		background-color: rgba(152, 152, 152, 1);
+		color: rgba(255, 255, 255, 1);
+	}
+
+	
+/* #Clouds Flat Button
+==================================================*/
+.clouds-flat-button {
+  vertical-align: top;
+  width: 45%;
+  height: 30px;
+  padding: 0;
+  color: rgba(69, 69, 69, 1);
+  text-align: center;
+  background-color: rgba(236, 240, 241, 1);
+  border: none;
+  cursor: pointer;
+  
+}

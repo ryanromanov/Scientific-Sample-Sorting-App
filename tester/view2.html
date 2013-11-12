@@ -1,0 +1,21 @@
+<div class="container">
+  <h2> Add Samples </h2>
+	{{ samples.length }}
+	<br />
+	Sample Number: <br />
+	<input type="text" ng-model="newSample.number" />
+	<br />
+	Sample Box: <br />
+	<input type="text" ng-model="newSample.box" />
+	<br />
+	Sample Row: <br />
+	<input type="text" ng-model="newSample.row" />
+	<br />
+	Sample Level: <br />
+	<input type="text" ng-model="newSample.level" />
+	<br />
+	<button ng-click="addSamples()">Add New Sample</button>
+	<br />
+	<br />
+	<a href="#/view1">Sample List</a>
+</div>

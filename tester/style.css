@@ -1,0 +1,31 @@
+/* Put your css in here */
+
+
+html {
+	background-color: #fff;
+}
+	.row {
+		margin-top: .5%;
+		margin-left: 5%;
+	}
+	.span3 {
+		background-color: #CC0000;
+		color: #fff;
+		text-align: center;
+		font-family: "Open Sans";
+		font-size: 1em;
+		font-weight: 100;
+		width: 15%;
+		height: 40px;
+	}
+		.span3 p {
+			background-color: #CC0000;
+			margin-top: 5%;
+		}
+	.searchBox {
+		font-family: "Open Sans";
+		font-size: 1.5em;
+		font-weight: 300;
+		
+	}
+
