@@ -22,19 +22,19 @@ a:link {
 				text-decoration: none;
 				color: rgba(102, 102, 102, 1);
 			}
-.span2.addSamples {
+.col-sm-2.addSamples {
 	text-align: center;
 	height: 40px;
 	font-family: "Open Sans";
 	font-weight: 100;
 }
-	.span2.addSamples:hover {
+	.col-sm-2.addSamples:hover {
 		background-color: rgba(152, 152, 152, 1);
 	}
-	a .span2.addSamples:hover {
+	a .col-sm-2.addSamples:hover {
 		color: rgba(255, 255, 255, 1);
 	}
-.span2.addSamples div.pushDown {
+.col-sm-2.addSamples div.pushDown {
 	margin-top: .6em;
 }
 	.row {
@@ -47,15 +47,15 @@ a:link {
 		background-color: rgba(0, 0, 0, 0);
 		margin-top: .5%;
 	}
-		.span3.columnHeadings {
+		.col-sm-3.columnHeadings {
 			background-color: rgba(0, 0, 0, 0);
 			font-family: "Open Sans";
 		}
-			.span3.columnHeadings h3 {
+			.col-sm-3.columnHeadings h3 {
 				font-weight: 100;
 				margin-top: -1%;
 			}
-	.span3 {
+	.col-sm-3 {
 		background-color: rgba(255, 255, 255, 1);
 		color: rgba(102, 102, 102, 1);
 		text-align: center;
@@ -65,10 +65,10 @@ a:link {
 		width: 15%;
 		height: 40px;
 	}
-		.span3.push-right {
+		.col-sm-3.push-right {
 			margin-left: 17%;
 		}
-		.span3 p {
+		.col-sm-3 p {
 			background-color: rgba(0, 0, 0, 0);
 			margin-top: 7%;
 			color: rgba(102, 102, 102, 1);
@@ -86,10 +86,10 @@ a:link {
 		.whitener {
 			color: rgba(255, 255, 255, 1) !important;
 		}
-.view2 div.span5.addSamples a {
+.view2 div.col-sm-5.addSamples a {
 	padding: 2.1%;
 }
-	.view2 div.span5.addSamples a:hover {
+	.view2 div.col-sm-5.addSamples a:hover {
 		background-color: rgba(152, 152, 152, 1);
 		color: rgba(255, 255, 255, 1);
 	}

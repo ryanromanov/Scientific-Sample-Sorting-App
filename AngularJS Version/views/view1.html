@@ -5,7 +5,7 @@
 			<input type="text" class="searchBox" ng-model="filter.number" />
 		</div>
 		<a href="#/view2">
-			<div class="span2 addSamples">
+			<div class="col-sm-2 addSamples">
 				<div class="pushDown">
 					Add Samples
 				</div>
@@ -13,32 +13,32 @@
 		</a>
 	</div>
 	<div class="row columnHeadings">
-		<div class="span3 columnHeadings push-right">
+		<div class="col-sm-3 columnHeadings push-right">
 			<h3>Number:</h3>
 		</div>
-		<div class="span3 columnHeadings">
+		<div class="col-sm-3 columnHeadings">
 			<h3>Box:</h3>
 		</div>
-		<div class="span3 columnHeadings">
+		<div class="col-sm-3 columnHeadings">
 			<h3>Row:</h3>
 		</div>
-		<div class="span3 columnHeadings">
+		<div class="col-sm-3 columnHeadings">
 			<h3>Level:</h3>
 		</div>
 	</div>
 	<div class="row desktop-only">
-		<div class="span12" ng-repeat="sample in samples.data | filter:filter.number | orderBy: 'number'">
+		<div class="col-sm-12" ng-repeat="sample in samples.data | filter:filter.number | orderBy: 'number'">
 			<div class="row">
-				<div class="span3 push-right">
+				<div class="col-sm-3 push-right">
 					<p>{{ sample.number }}</p>
 				</div>
-				<div class="span3">
+				<div class="col-sm-3">
 					<p>{{ sample.box }}</p>
 				</div>
-				<div class="span3">
+				<div class="col-sm-3">
 					<p>{{ sample.row }}</p>
 				</div>
-				<div class="span3">
+				<div class="col-sm-3">
 					<p>{{ sample.level }}</p>
 				</div>
 			</div>

@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost","root", "bag311e", "CBI");
+$con=mysqli_connect("localhost","root", "passw0rd", "CBI");
 // Check Connection
 if (mysqli_connect_errno($con)) {
 	echo mysqli_connect_error() . "Connection Failed! You've made a huge mistake..."; 

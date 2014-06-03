@@ -1,5 +1,5 @@
 
-.view2 .span5.push-right {
+.view2 .col-sm-5.push-right {
 	margin-left: 17%;
 }
 .view2 div {
@@ -7,8 +7,8 @@
 	font-weight: 100;
 	color: rgba(102, 102, 102, 1);
 }
-.view2 .span5 h2,
-.view2 .span3 h2 {
+.view2 .col-sm-5 h2,
+.view2 .col-sm-3 h2 {
 	font-family: "Open Sans";
 	font-weight: 100;
 	color: rgba(102, 102, 102, 1);
@@ -18,13 +18,13 @@
 	font-weight: 100;
 	color: rgba(102, 102, 102, 1);
 }
-.span5.export .span12.lower {
+.col-sm-5.export .col-sm-12.lower {
 	margin-top: 5%;
 }
-.view2 div.span12 a {
+.view2 div.col-sm-12 a {
 	padding: 1%;
 }
-	.view2 .row div.span12 a:hover {
+	.view2 .row div.col-sm-12 a:hover {
 		background-color: rgba(152, 152, 152, 1);
 		color: rgba(255, 255, 255, 1);
 	}
