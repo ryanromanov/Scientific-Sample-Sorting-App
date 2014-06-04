@@ -1,3 +1,8 @@
+/* Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400);
+
+
 /* Basic Customization */
 
 li a:link {
@@ -15,10 +20,12 @@ li a:visited {
 	border-bottom: none;
 }
 .navbar-brand {
+	padding-top: 20px;
+	padding-bottom: 10px;
 	color: rgba(255, 255, 255, 1)!important;
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 3em;
-	font-family: "Gill Sans";	
+	font-family: "Raleway", sans-serif;	
 }
 	.nav.navbar-nav {
 		float: right;
@@ -26,21 +33,22 @@ li a:visited {
 		div.collapse li a,
 		div.collapsing li a {
 			font-variant: normal;
-			font-weight: 100;
+			font-weight: 400;
 			font-size: 1.3em;
-			font-family: "Helvetica Neue";
+			font-family: "Raleway";
+			padding-top: 15px;
+			padding-bottom: 10px;
+			margin-top: 3px;
 		}
 		div.collapsing li a,
 		div.navbar-collapse.collapse.in li a {
 			padding-top: 10px;
 			padding-bottom: 10px;
 			margin-top: 0px;
+			border-left: 1px solid rgba(255, 255, 255, .75);
 		}
 		div.collapse li a.initial {
 			border-left: 1px solid rgba(255, 255, 255, .75);
-			padding-top: 10px;
-			padding-bottom: 10px;
-			margin-top: 6px;
 		}
 		
 /* Main Customisation */
