@@ -1,9 +1,9 @@
 /* Basic Customization */
 
-a:link {
+li a:link {
 	background-color: rgba(35, 35, 35, 1) !important;
 }
-a:visited {
+li a:visited {
 	background-color: rgba(35, 35, 35, 1) !important;
 }
 .sm-caps {
@@ -36,9 +36,15 @@ a:visited {
 			padding-bottom: 10px;
 			margin-top: 0px;
 		}
-		div.collapse li a {
+		div.collapse li a.initial {
 			border-left: 1px solid rgba(255, 255, 255, .75);
 			padding-top: 10px;
 			padding-bottom: 10px;
 			margin-top: 6px;
 		}
+		
+/* Main Customisation */
+
+.push-down {
+	margin-top: 10%;
+}

@@ -2,12 +2,56 @@
 <html>
 <head>
 <title>EM Lab Sample Box Sorter</title>
+	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="main.css" />
 	
 	
 	<style>
+		.col-sm-8 {
+			
+			border-radius: 0px !important;
+			text-align: center;
+			font-weight: 300;
+			font-size: 1.3em;
+			font-family: "Helvetica Neue";
+			padding-bottom: 10px;
+			background-color: inherit;
+			border: none;
+		}
+			.col-sm-8 a.slab {
+				padding: 15px 15px;
+			}
+			.col-sm-8 h4 {
+				font-weight: 300;
+				font-size: 2em;
+				font-family: "Helvetica Neue";
+				background-color: inherit;
+			}
+			.col-sm-8 p {
+				background-color: inherit;
+			}
+			
+		.push-down {
+			margin-top: 10%;
+		}
 	
+	a.slab:link {
+		background-color: rgba(255, 255, 255, 1) !important;
+		color: rgba(0, 0, 0, 1);
+	}
+	a.slab:visited {
+		background-color: rgba(255, 255, 255, 1) !important;
+		color: rgba(0, 0, 0, 1);
+	}
+	a.slab:hover {
+		background-color: rgba(166, 166, 166, 1) !important;
+		color: rgba(255, 255, 255, 1) !important;
+	}
+	a.slab:active {
+		background-color: rgba(100, 100, 100, 1) !important;
+		
+	}
 	</style>
 </head>
 
@@ -21,22 +65,37 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index.html">CBI <span class="sm-caps">Sample Box Sorter</span></a>
+				<a class="navbar-brand" href="#">CBI <span class="sm-caps">sample box sorter</span></a>
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
 					<li class="active">
-						<a href="viewSamples.php">View</a>
+						<a href="viewSamples.php" class="initial">View</a>
 					</li>
 					<li class="active">
-						<a href="addSamples.php">Add</a>
+						<a href="addSamples.html">Add</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
+	
+	<div class="container push-down">
+		<div class="row ">
+			<a class="slab" href="addSamples.html">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h4>
+						Komið þið sæl!
+					</h4>
+					<p>
+						Click here to add samples
+					</p>
+				</div>
+			</a>
+		</div>
+	</div>
 
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </body>
