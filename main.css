@@ -1,6 +1,29 @@
 /* Fonts */
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:300,400);
+@font-face {
+font-family: Raleway-Light;
+src: url(faces/Raleway-Light.otf);
+}
+@font-face {
+font-family: Raleway-ExtraLight;
+src: url(faces/Raleway-ExtraLight.otf);
+}
+@font-face {
+font-family: GillSans-Light;
+src: url(faces/GillSans-Light.ttf);
+}
+@font-face {
+font-family: HelveticaNeue-UltraLight;
+src: url(faces/HelveticaNeueUltraLight.ttf);
+}
+@font-face {
+font-family: HelveticaNeue-Light;
+src: url(faces/HelveticaNeueLight.ttf);
+}
+@font-face {
+font-family: HelveticaNeue-Thin;
+src: url(faces/HelveticaNeueThin.ttf);
+}
 
 
 /* Basic Customization */
@@ -20,12 +43,9 @@ li a:visited {
 	border-bottom: none;
 }
 .navbar-brand {
-	padding-top: 20px;
-	padding-bottom: 10px;
 	color: rgba(255, 255, 255, 1)!important;
-	font-weight: 400;
 	font-size: 3em;
-	font-family: "Raleway", sans-serif;	
+	font-family: "GillSans-Light", sans-serif;	
 }
 	.nav.navbar-nav {
 		float: right;
@@ -33,12 +53,8 @@ li a:visited {
 		div.collapse li a,
 		div.collapsing li a {
 			font-variant: normal;
-			font-weight: 400;
 			font-size: 1.3em;
-			font-family: "Raleway";
-			padding-top: 15px;
-			padding-bottom: 10px;
-			margin-top: 3px;
+			font-family: "HelveticaNeue-UltraLight", sans-serif;
 		}
 		div.collapsing li a,
 		div.navbar-collapse.collapse.in li a {
@@ -52,7 +68,9 @@ li a:visited {
 		}
 		
 /* Main Customisation */
-
 .push-down {
 	margin-top: 10%;
+}
+.jumbotron.push-down {
+	margin-top: 5%;
 }

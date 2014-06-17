@@ -20,9 +20,8 @@
 			text-align: center;
 		}
 		.col-sm-2 h4 {
-			font-weight: 500;
 			font-size: 1.7em;
-			font-family: "Raleway", sans-serif;
+			font-family: "Raleway-Light", sans-serif;
 		}
 		.row.sampleRow {
 			margin-bottom: 1%;
@@ -31,9 +30,8 @@
 			background-color: rgba(166, 166, 166, .75);
 			padding-top: 1%;
 			padding-bottom: 1%;
-			font-weight: 400;
 			font-size: 1.3em;
-			font-family: "Raleway", sans-serif;
+			font-family: "Raleway-ExtraLight", sans-serif;
 		}
 		.push-right {
 			margin-left: 5%;

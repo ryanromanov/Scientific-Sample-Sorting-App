@@ -1,5 +1,5 @@
 <?php
-header( "Refresh:3; url=http://www.cbi.pitt.edu/EMBoxSorter/addSamples.html", true, 303);
+header( "Refresh:1; url=http://www.cbi.pitt.edu/EMBoxSorter/addSamples.html", true, 303);
 	$con=mysqli_connect("localhost","root","","cbiTest");
 	//Check Connection
 	if (mysqli_connect_errno($con)) {
