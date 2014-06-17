@@ -31,7 +31,7 @@
 			padding-top: 1%;
 			padding-bottom: 1%;
 			font-size: 1.3em;
-			font-family: "Raleway-ExtraLight", sans-serif;
+			font-family: "HelveticaNeue-Thin", sans-serif;
 		}
 		.push-right {
 			margin-left: 5%;
